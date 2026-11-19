@@ -1,0 +1,14 @@
+/* Gaya dasar aplikasi LaundryCalc dengan Tailwind CSS dan font Plus Jakarta Sans. */
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #fafafa;
+    color: #171717;
+  }
+}
